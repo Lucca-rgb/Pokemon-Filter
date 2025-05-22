@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Description</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Choose your pokémon!</a>
+    <div class="navbar-nav">
+      <select id="pokemon-filter" class="form-control" style="max-width: 200px;">
+        <option value="">Pokémon List</option>
+        <!-- Filtros dos Pokémons vão aparecer aqui -->
+      </select>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <div class="container mt-5">
+    <h1 class="text-center text-white">Visualize here</h1>
+    <div class="text-center mt-4">
+      <button id="load-pokemon" class="btn btn-danger">Load Pokémon</button>
+    </div>
+    <div id="pokemon-container" class="row justify-content-center mt-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Fundo escuro com gradiente */
+body {
+  background: linear-gradient(to bottom, #121212, #333333); /* Gradiente escuro de cima para baixo */
+  color: white; /* Texto claro para contrastar com o fundo escuro */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Garantir que o fundo cubra toda a altura da tela */
+}
+
+/* Título principal */
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+/* Estilo do botão com as cores da logo do Pokémon */
+.btn-danger {
+  background-color: #ff0000; /* Vermelho da logo do Pokémon */
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btn-danger:hover {
+  background-color: #d10000; /* Vermelho mais escuro para o hover */
+}
+
+/* Container de Pokémon */
+#pokemon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-card {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.856);
+}
+
+.pokemon-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: -10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #000000; /* Amarelo da logo do Pokémon */
+  font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar-nav select {
+  margin-left: 20px;
+  color: #ff7b00; /* Cor amarela para o filtro */
+}
