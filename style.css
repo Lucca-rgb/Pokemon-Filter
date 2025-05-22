@@ -1,5 +1,5 @@
 /* Fundo escuro com gradiente */
-body {
+ody {
   background: linear-gradient(to bottom, #121212, #333333); /* Gradiente escuro de cima para baixo */
   color: white; /* Texto claro para contrastar com o fundo escuro */
   margin: 0;
