@@ -27,7 +27,7 @@ The filter directly consumes data from the Pokémon public API available at [Pok
 
 ---
 
-## 🇧🇷 Português
+## Português
 
 Este projeto é um filtro de Pokémon que permite que você selecione um Pokémon de uma lista e, ao clicar em **Load Pokémon**, ele irá carregar a imagem, o nome e a descrição do Pokémon selecionado.
 
