@@ -1,4 +1,4 @@
-ocument.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const button = document.getElementById('load-pokemon');
   const container = document.getElementById('pokemon-container');
   const filterSelect = document.getElementById('pokemon-filter');
